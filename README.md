@@ -84,7 +84,7 @@ send(address payable account,uint amount) private
 ```
 timerUpdate() private
 ```
-##Переменные
+## Переменные
 
 - Адрес владельца контракта
 ```
