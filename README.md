@@ -84,4 +84,29 @@ send(address payable account,uint amount) private
 ```
 timerUpdate() private
 ```
+##Переменные
 
+- Адрес владельца контракта
+```
+address public owner
+```
+- Начало отсчета таймера
+```
+uint public timer
+```
+- Значение таймера
+```
+uint8 constant inc=10
+```
+- Количество наследников
+```
+uint8 public amountHeir=3
+```
+- Хранение адреса и сумму вложения
+```
+mapping (address=>uint256) public accounts
+```
+- Хранение адресов для доступа к mapping
+```
+address[] public addr
+```
