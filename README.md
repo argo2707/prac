@@ -60,6 +60,28 @@ sendToContri (address account) public
 - Функция для вывода денег вкладчика с контракта.
 
 ```
-sendToContri (address account) public
+percentageIncrease() public interactOwner
 ```
-- Функция для вывода денег вкладчика с контракта.
+- Функция для начисление процентов вкладчикам к их вложениям
+
+```
+sendTo(address payable account,uint amount) public interactOwner
+```
+- Функция для отправки денег с контракта(доступен только владельцу).
+
+```
+sendToHeit() public
+```
+- Функция для перечисления денег с контракта наследникам
+
+```
+send(address payable account,uint amount) private
+```
+- Функция для перечисления денег
+
+```
+timerUpdate() private
+```
+- Функция для обновления таймера
+
+
