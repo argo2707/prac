@@ -1,4 +1,4 @@
-# practice
+# Practice
 
 Разработано на языке Solidity.
 
