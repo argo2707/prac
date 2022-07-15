@@ -38,11 +38,28 @@ receive() external payable
 function getPay() external payable
 ```
 - Функция, которая принимает платежи.
+
 ```
 setAddr (address client,uint amount) private
 ```
 - Функция, которая записывает данные о вкладчиках в массив и mapping.
-- ```
-setAddr (address client,uint amount) private
+
 ```
-- Функция, которая записывает данные о вкладчиках в массив и mapping.
+getBalance() external returns(uint balance)
+```
+- Функция возвращает баланс контракта.
+
+```
+getBalance(address account) external returns(uint balance)
+```
+- Функция возвращает количество вложенных денег .
+
+```
+sendToContri (address account) public
+```
+- Функция для вывода денег вкладчика с контракта.
+
+```
+sendToContri (address account) public
+```
+- Функция для вывода денег вкладчика с контракта.
